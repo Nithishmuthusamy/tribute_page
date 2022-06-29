@@ -1,0 +1,42 @@
+.maincontent{
+    margin-bottom: 10%;
+    margin-top: 2%;
+    text-align: center;
+    border-collapse: collapse;
+    width: 65%;
+    height: fit-content;
+  }
+/* .content{
+    border-bottom: 1px;
+    border-bottom-style: solid;
+  }*/
+  .table{
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px black;
+  }
+ .maincontent tbody tr {
+    border-bottom: 1px solid;
+  }
+  .maincontent thead {
+    background-color: rgb(38, 184, 184);
+  }
+  .maincontent tbody tr:nth-child(even) {
+    background-color:#f3f3f3;
+  }
+  .nutshell{
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: right;
+    border-collapse: collapse;
+    border-style: solid;
+    overflow: scroll;
+    height:fit-content;
+  }
+  .divide{
+    display: flex;
+  }
+  .details{
+    margin-top: 10%;
+    float: left;
+  }
